@@ -11,16 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var theLabel: UILabel!
-    
-    var tapCount: Int = 0
+    @IBOutlet var text1: UITextField!
+    @IBOutlet var text2: UITextField!
+
     
     @IBAction func buttonTapped(_ sender: AnyObject) {
-        theLabel.text = "Hello there!"
-        tapCount += 1
-        print (tapCount)
-        if tapCount >= 10 {
-            print ("reached 10")
-        }
+        print(text1.text!)
+        print(text2.text!)
+
     }
     
     override func viewDidLoad() {
