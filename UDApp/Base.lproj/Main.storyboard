@@ -30,13 +30,32 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WpY-ch-1hS"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hello!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7mf-W6-TJD">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="pNO-UW-oGa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bb5-CQ-b7O">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="5c4-08-hz6"/>
+                                </constraints>
+                                <color key="textColor" red="0.7231522936" green="1" blue="0.98030684779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="7mf-W6-TJD" firstAttribute="top" secondItem="qBQ-h5-vA2" secondAttribute="bottom" constant="7.5" id="4gN-i6-bYu"/>
                             <constraint firstItem="2cg-UX-qYT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="82J-Lg-s7R"/>
+                            <constraint firstItem="Bb5-CQ-b7O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ga5-q5-dTn"/>
                             <constraint firstItem="qBQ-h5-vA2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YjL-b4-LQx"/>
                             <constraint firstItem="2cg-UX-qYT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e2q-85-fkT"/>
+                            <constraint firstItem="7mf-W6-TJD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lfh-gK-YBg"/>
                             <constraint firstItem="qBQ-h5-vA2" firstAttribute="top" secondItem="2cg-UX-qYT" secondAttribute="bottom" constant="72" id="rfG-CF-abb"/>
+                            <constraint firstItem="Bb5-CQ-b7O" firstAttribute="top" secondItem="7mf-W6-TJD" secondAttribute="bottom" constant="7.5" id="s6A-29-3AO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -45,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.600000000000001" y="-452.02398800599701"/>
+            <point key="canvasLocation" x="-87" y="-515"/>
         </scene>
     </scenes>
 </document>
